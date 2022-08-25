@@ -1,0 +1,25 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Lato', cursive;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666; 
+}
+
+
+.pimg1{
+    background-image: url(../images/look_away.jpg);
+    min-height: 100%;
+}
+
+.pimg2{
+    background-image: url(../images/red_hoodie.jpg);
+    min-height: 600px;
+}
+
+.pimg3{
+    background-image: url(../images/white_hoodie.jpg);
+    min-height: 600px;
+}
