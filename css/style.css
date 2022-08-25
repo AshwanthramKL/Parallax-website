@@ -8,6 +8,18 @@ html, body {
     color: #666; 
 }
 
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    opacity: 0.85;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /*fixed : parallax effect
+      scoll : normal background
+    */
+    background-attachment: fixed;
+}
 
 .pimg1{
     background-image: url(../images/look_away.jpg);
@@ -23,3 +35,4 @@ html, body {
     background-image: url(../images/white_hoodie.jpg);
     min-height: 600px;
 }
+
