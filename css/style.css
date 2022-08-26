@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
 html, body {
     margin: 0;
     height: 100%;
@@ -8,14 +11,15 @@ html, body {
     color: #666; 
 }
 
-.pimg1, .pimg2, .pimg3{
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5{
     position: relative;
     opacity: 0.85;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
-    /*fixed : parallax effect
+    /*
+        fixed : parallax effect
       scoll : normal background
     */
     background-attachment: fixed;
@@ -36,3 +40,73 @@ html, body {
     min-height: 600px;
 }
 
+.pimg4{
+    background-image: url(../images/green_background.jpg);
+    min-height:600px;
+}
+
+.pimg5{
+    background-image: url(../images/look_away.jpg);
+    min-height:100%;
+}
+.section{
+    text-align: center;
+    padding: 50px 75px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.light{
+    background-color: #f4f4f4;
+    color: black;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
+
+.ptext{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 3px;
+}
+
+.center{
+    top: 50%;
+    font-size: 100px;
+    
+}
+
+.pimg5 .ptext{
+    top: 60%;
+    left: 0;
+    font-size: 100px;
+}
+
+.author{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 55%;
+}
+
+.border{
+    background-color: transparent;
+} 
+
+.footer {
+    position:absolute;
+    text-align: center;
+    bottom:10px;
+    width:100%;
+    background-color: transparent;
+  }
+
+
+  a:hover{
+    color: white;
+    font-size: 18px;
+  }
